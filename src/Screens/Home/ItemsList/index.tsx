@@ -127,7 +127,6 @@ const ItemsList = ({navigation}: ItemsListProps) => {
     setQuery(value);
 
     if (!value) {
-      console.log('entered if');
       dispatch(GetItemsAction());
       setSearchItems([]);
       dispatch(ResetOffsetAction());

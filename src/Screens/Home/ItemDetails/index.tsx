@@ -78,8 +78,6 @@ const ItemDetails = ({navigation}: ItemDetailstProps) => {
     dispatch(RemoveFromFavoritesAction(itemId));
   };
 
-  console.log(itemInFavorite, 'itemInFavorite');
-
   return (
     <View style={styles.container}>
       {item ? (
