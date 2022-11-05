@@ -1,0 +1,9 @@
+export const SET_USER = 'SET_USER';
+export const SET_ITEMS = 'SET_IMAGES';
+export const SET_ACTIVE_ITEM = 'SET_ACTIVE_ITEM';
+export const ADD_TO_FAVORITES = 'ADD_TO_FAVORITES';
+export const REMOVE_FROM_FAVORITES = 'REMOVE_FROM_FAVORITES';
+export const CLEAR_FAVORITES = 'CLEAR_FAVORITES';
+export const INCREASE_OFFSET = 'INCREASE_OFFSET';
+export const RESET_OFFSET = 'RESET_OFFSET';
+export const SET_LOADING = 'SET_LOADING';
